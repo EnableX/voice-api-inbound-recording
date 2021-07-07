@@ -41,7 +41,7 @@ For Mac and Linux, open a terminal window and type the following commands. Note 
   - With ngrok, you can generate HTTP / HTTPS URL (such as https://fc6c892d6cd7.ngrok.io)
   - that tunnels requests to web server running locally on your own computer at a given port
   - ngrok (https://ngrok.com/) should be installed on your computer
-    - `USE_NGROK_TUNNEL=`
+    - `export USE_NGROK_TUNNEL=`
 
 - set redirect parameter to bridge the call
   - `export REDIRECT_NUMBER=`
@@ -51,7 +51,7 @@ For Mac and Linux, open a terminal window and type the following commands. Note 
 
 For Windows:
   - Make a file with name ".env" in root directory . And copy content of .env.example in .env file . Then set the environment variables manually in .env file. And below are the environment variables.
-  - `ENABLEX_APP_ID` , `ENABLEX_APP_KEY` , `SERVICE_PORT` , `USE_PUBLIC_WEBHOOK` , `PUBLIC_WEBHOOK_HOST` ,  `USE_NGROK_TUNNEL` , `REDIRECT_NUMBER` , `LISTEN_SSL`
+  - `ENABLEX_APP_ID` , `ENABLEX_APP_KEY` , `SERVICE_PORT` , `USE_PUBLIC_WEBHOOK` , `PUBLIC_WEBHOOK_HOST` ,  `USE_NGROK_TUNNEL` , `REDIRECT_NUMBER` , `LISTEN_SSL`.
   Their explanation is given in Linux/Mac section (Upper section).
 
 ## SSL Certificate (Self Signed or Registered). It is required configuration if USE_PUBLIC_WEBHOOK is set to true or LISTEN_SSL is set to true.
