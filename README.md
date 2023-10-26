@@ -1,5 +1,6 @@
-# **Basic Client Examples to demonstrate Inbound Calls using Enablex Voice APIs. **
-This example contains instructions how users can initiate Inbound Calls.
+# EnableX Programmable Voice API Inbound Calls: Step-by-Step Guide for Initiating Inbound Calls
+
+This set of instructions and scripts provides a basic example for initiating inbound calls using Enablex Programmable Voice APIs. Users need to clone the repository, set up environment variables including APP ID and APP KEY, configure webhook settings, and optionally set up SSL certificates. The client application script "client-inbound-recording.js" is then used to handle inbound calls. This setup allows developers to create and manage inbound call workflows with Enablex Programmable Voice APIs.
 
 
 ## Pre-requisite
